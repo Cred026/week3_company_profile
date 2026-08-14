@@ -6,6 +6,7 @@
     align-items: center;
     border-radius: 16px;
     padding: 30px 30px 30px;
+    margin: 20px 0 20px;
 }
 .servicesContainer {
     display: flex;
@@ -17,15 +18,30 @@
     align-items: center;
 }
 
-.servicesContainer div {
-    width: 400px;
+/* .servicesContainer div { */
+/* } */
+
+.servicesCard {
+    background: darkgreen;
+    padding: 20px 20px 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 400px;
     align-items: center;
     justify-content: center;
     border-radius: 16px;
 }
 
-.servicesCard {
-    background: darkgreen;
+.servicesCard div {
+    display: flex;
+    flex-direction: row;
+}
+
+.servicesCard p {
+    text-align: justify;
+}
+
+.servicesCard img {
+    width: 70px;
+    height: 70px;
 }
