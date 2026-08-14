@@ -1,0 +1,31 @@
+.services {
+    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    padding: 30px 30px 30px;
+}
+.servicesContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 50vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesContainer div {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.servicesCard {
+    background: darkgreen;
+}

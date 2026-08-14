@@ -1,0 +1,36 @@
+.content {
+    background-color: green;
+    width: 95vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 24px;
+}
+
+.first_half {
+    margin: 0 30px 0;
+}
+
+.second_half {
+    margin: 0 30px 80px;
+}
+
+.first_half h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.first_half p {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 0 50px;
+}
+
+.second_half p {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 100px 0;
+    text-align: justify;
+}

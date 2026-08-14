@@ -1,0 +1,71 @@
+.aboutBody {
+    background: green;
+    width: 80vw;
+    margin: 30px 30px 30px;
+    padding: 30px 30px 30px;
+    border-radius: 30px;
+}
+
+.aboutBody p {
+    margin: 0 10px 0 30px;
+}
+
+.aboutBody p {
+    text-align: justify;
+}
+
+.aboutUsText {
+    font-size: 45px;
+}
+
+.companyHistory p {
+    font-size: 20px;
+}
+
+.companyMission p {
+    font-size: 20px;
+}
+
+.companyVision p {
+    font-size: 20px;
+}
+
+.coreValues {
+    background: darkgreen;
+    padding: 40px 40px 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.coreValues p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.coreValuesText {
+    margin: 0;
+}
+
+.coreValuesInfo h1 {
+    font-size: 24px;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    background: darkgreen;
+    padding: 30px 30px 30px;
+    justify-content: space-evenly;
+    border-radius: 16px;
+}
+
+.team-member p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 16px;
+}
