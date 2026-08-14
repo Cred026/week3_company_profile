@@ -1,3 +1,68 @@
+#contactUs {
+    text-align: center;
+    background: darkgreen;
+    padding: 10px 0 10px;
+    border: 16px;
+}
+
+#sendUsAMsg {
+    text-align: center;
+}
 .contactContainer {
-    background: red;
+    background: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 20px 20px;
+    margin: 20px 0 20px;
+    border-radius: 16px;
+    width: 60vw;
+    min-height: 120vh;
+}
+
+.contactSection {
+    border-radius: 24px;
+}
+
+.contactForm {
+    background: darkgreen;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px;
+    padding: 20px 20px 20px;
+    margin: 20px 0 20px;
+}
+
+.contactForm form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInformation {
+    background: darkgreen;
+    margin: 20px 0 20px;
+    padding: 20px 20px 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.information {
+    margin-left: 30px;
+}
+
+.information p {
+    font-size: 20px;
+}
+
+.hyperlink {
+    margin-right: 50px;
+}
+
+.hyperlink a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }

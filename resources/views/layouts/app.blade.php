@@ -7,6 +7,7 @@
     @vite('resources/css/home.css')
     @vite('resources/css/about.css')
     @vite('resources/css/services.css')
+    @vite('resources/css/contact.css')
     @vite('resources/css/navbar.css')
     @vite('resources/css/footer.css')
 </head>

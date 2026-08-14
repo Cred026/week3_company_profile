@@ -4,19 +4,13 @@
 
 <div class="contactContainer">
 
-    <h1>Contact Us</h1>
-
-    <p>
-        We'd love to hear from you. Whether you have questions about our
-        services, need technical assistance, or want to discuss a new
-        project, our team is ready to help.
-    </p>
+    <h1 id="contactUs">Contact Us</h1>
 
     <div class="contactSection">
 
         <div class="contactForm">
 
-            <h2>Send Us a Message</h2>
+            <h2 id="sendUsAMsg">Send Us a Message</h2>
 
             <form>
 
@@ -40,46 +34,50 @@
 
         <div class="contactInformation">
 
-            <h2>Contact Information</h2>
+            <div class="information">
 
-            <p>
-                <strong>Address:</strong><br>
-                245 Innovation Avenue,<br>
-                Batangas City, Batangas 4200,<br>
-                Philippines
-            </p>
+                <h2>Contact Information</h2>
 
-            <p>
-                <strong>Email:</strong><br>
-                info@northwinddigital.com
-            </p>
+                <p>
+                    <strong>Address:</strong><br>
+                    245 Innovation Avenue,<br>
+                    Batangas City, Batangas 4200,<br>
+                    Philippines
+                </p>
 
-            <p>
-                <strong>Phone:</strong><br>
-                +63 917 456 7821
-            </p>
+                <p>
+                    <strong>Email:</strong><br>
+                    info@northwinddigital.com
+                </p>
 
-            <h2>Follow Us</h2>
+                <p>
+                    <strong>Phone:</strong><br>
+                    +63 917 456 7821
+                </p>
+            </div>
 
-            <ul>
+            <div class="hyperlink">
 
-                <li>
-                    <a href="#">Facebook</a>
-                </li>
+                <h2>Follow Us</h2>
 
-                <li>
-                    <a href="#">Instagram</a>
-                </li>
+                <ul class="lists">
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
 
-                <li>
-                    <a href="#">LinkedIn</a>
-                </li>
+                    <li>
+                        <a href="#">Instagram</a>
+                    </li>
 
-                <li>
-                    <a href="#">X (Twitter)</a>
-                </li>
+                    <li>
+                        <a href="#">LinkedIn</a>
+                    </li>
 
-            </ul>
+                    <li>
+                        <a href="#">X (Twitter)</a>
+                    </li>
+                </ul>
+            </div>
 
         </div>
 
